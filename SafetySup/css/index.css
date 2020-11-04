@@ -1,0 +1,506 @@
+@charset "utf-8";
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.row1 {
+	height: 70px;
+	/* width: 100%; */
+	text-align: center;
+	padding: 10px 10px;
+}
+
+.row1>div {
+	height: 60px;
+}
+
+.row1 .col-2,
+.row1 .col-8 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.row1_1 {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/home/xl.png);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: 5px 10px;
+}
+
+.row1_2 {
+	color: #0060AD;
+}
+
+.row1_2 h1 {
+	font-size: 22px;
+}
+
+.row1_2 p {
+	font-size: 10px;
+}
+
+.row1_3 {
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/home/xx.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center 10px;
+}
+
+.container1 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container1 img {
+	width: 100%;
+}
+
+.row2 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.row2_1 h2 {
+	font-size: 22px;
+}
+
+.row2_1 {
+	width: 70%;
+	margin: 0 auto;
+	border-bottom: 1px solid #000000;
+}
+
+.loop{
+	width: 80%;
+	margin: 20px auto;
+	position: relative;
+}
+
+.loop1{
+	text-align: center;
+}
+
+.loop1>div h3{
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.loop1>div p{
+	font-size: 12px;
+	color: #0060AD;
+	margin-bottom: 5px;
+}
+
+.loop>div a{
+	display: block;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	border-radius: 3px;
+	color: #FFFFFF;
+	background-color: #0066B3;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.prev img,.next img{
+	width: 8px;
+}
+
+.prev img{
+	position: absolute;
+	top: 25%;
+	left: -20px;
+	transform: translate(-50%,-50%);
+}
+
+.next img{
+	position: absolute;
+	top: 25%;
+	right: -20px;
+	transform: translate(50%,-50%);
+}
+
+.row3 {
+	margin-top: 10px;
+}
+
+.container3 {
+	background-color: #0066B3;
+}
+
+.row3_1 {
+	margin-top: 10px;
+}
+
+.row3_1 h2 {
+	font-size: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-shadow: 0px 2px 2px #002679;
+	-webkit-text-stroke: .5px #002679; 
+}
+
+.row4 {
+	padding-left: 0;
+	padding-bottom: 15px;
+}
+
+.row4_1 {
+	margin-top: 10px;
+}
+
+.row4_1 img {
+	width: 100%;
+}
+
+.container4 {
+	position: relative;
+}
+
+.container4 img {
+	width: 100%;
+}
+
+.row5 {
+	width: 80%;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: #0060AD;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #002475;
+	border-radius: 0 0 5px 5px;
+}
+
+.row5 h3 {
+	line-height: 30px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.container5 {
+	padding-top: 10px;
+}
+
+.container5 .row2_1{
+	margin-bottom: 10px;
+}
+
+.row6 {
+	margin-top: 100px;
+	background-color: #0066B3;
+	border-radius: 5px;
+}
+
+.row6_1 {
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.row6_1 img {
+	width: 100%;
+}
+
+.row6_2 {
+	padding: 100px 5px 5px;
+}
+
+.row6_2 p {
+	text-indent: 2em;
+	color: #FFFFFF;
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 0px;
+}
+
+.row6_2>p:nth-child(2) {
+	color: #FFCF00;
+}
+
+.container6 .row4_1_1 {
+	position: relative;
+}
+
+.row4_1_1 {
+	width: 50%;
+	font-size: 10px;
+	color: #0060AD;
+	background-color: #FFFFFF;
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -100%);
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+}
+
+.row7 {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+.row7 li {
+	padding: 3px;
+	text-align: center;
+}
+
+.row7 li div {
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #0060AD;
+	border-radius: 3px;
+	color: #0060AD;
+}
+
+.row8 {
+	padding: 0 15px;
+}
+
+.row8 li{
+	border-bottom: 1px solid #000000;
+	padding: 0;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.row8_1 {
+	margin-top: 10px;
+}
+
+.row8_1_1 {
+	width: 30%;
+	float: left;
+}
+
+.row8_1_1 img {
+	width: 100%;
+}
+
+.row8_1_2 {
+	width: 70%;
+	float: left;
+	padding: 5px;
+}
+
+.row8_1_2>div:nth-child(1) {
+	width: 100%;
+	height: 32px;
+}
+
+.row8_1_2 h3 {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.row8_1_2>div:nth-child(2) {
+	margin-top: 10px;
+}
+
+.row8_1_2 span {
+	font-size: 10px;
+	float: left;
+	color: #5A5A5A;
+}
+
+.row8_1_2 span:nth-child(2) {
+	float: right;
+	margin-right: 5px;
+}
+
+.row9 {
+	padding-left: 0;
+	text-align: center;
+}
+
+.row9_1 {
+	padding: 0 30px;
+}
+
+.row9_1>div:nth-child(1) {
+	width: 100px;
+	margin: 10px auto;
+}
+
+.row9_1>div:nth-child(1) img {
+	width: 100%;
+}
+
+.row9_1>h3 {
+	font-size: 22px;
+}
+
+.row9_1>p {
+	font-size: 14px;
+}
+
+.row10 {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.row10 img {
+	width: 100%;
+}
+
+
+.row10 .carousel-indicators li{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+
+.row10 .carousel-indicators .active{
+	background-color: #0066B3;
+}
+
+.row11 {
+	padding-bottom: 25px;
+}
+
+.row11>div {
+	margin-top: 15px;
+}
+
+.row11 #inputName,
+.row11 #inputMobile {
+	width: 100%;
+	height: 40px;
+	background-image: url(../img/home/lxwm1.png);
+	background-repeat: no-repeat;
+	background-size: 18px;
+	background-position: 5px center;
+	font-size: 14px;
+	padding-left: 30px;
+	border: 1px solid #5A5A5A;
+	border-radius: 5px;
+}
+
+.row11 #inputMobile {
+	background-image: url(../img/home/lxwm2.png);
+}
+
+.row11 #inputName:focus,
+.row11 #inputMobile:focus {
+	outline: 0px solid #5FB8FF;
+	border: 0px;
+	box-shadow: 0 0 0 3px #5FB8FF;
+}
+
+.row11 #inputButton {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	border: 0px;
+	background: linear-gradient(0, #0060AD, #5FB8FF);
+	color: #FFFFFF;
+}
+
+.row11 #inputButton:focus {
+	outline: 0px solid #5FB8FF;
+	border: 0px;
+	box-shadow: 0 0 0 3px #5FB8FF;
+}
+
+.containerFooter {
+	background-color: #0060B4;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.row12 {}
+
+.row12 h3 {
+	font-size: 15px;
+}
+
+.row12 img {
+	width: 120px;
+	margin-top: 5px;
+}
+
+.row13 {
+	margin-top: 20px;
+}
+
+.row13 h4 {
+	font-size: 14px;
+}
+
+.row14 {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.row14 li {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.row14 li a {
+	display: block;
+	padding: 0 5px;
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	color: #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.row14 li:last-child a {
+	border-right: 0;
+}
+
+.row14:after {
+	/*伪元素是行内元素 正常浏览器清除浮动方法*/
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.row14 {
+	*zoom: 1;
+	/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+
+
+.row15 h4 {
+	font-size: 14px;
+}
+
+.row16{
+	padding: 0 5px;
+}
+
+.row16 p{
+	text-align: left;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.row16 p a{
+	color: #FFFFFF;
+}
